@@ -1,0 +1,22 @@
+# Go
+backend/bin/
+backend/tmp/
+
+# Node / frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/settings.json
+.idea/
+*.swp
+
+# Secrets
+.env
+.env.*
+!.env.example
